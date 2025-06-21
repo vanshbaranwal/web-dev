@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <caption>table of cities, countries and population</caption>
+        <tr>
+            <th>city</th>
+            <th>country</th>
+            <th>population</th>
+        </tr>
+        <tr>
+            <td>Varanasi</td>
+            <td>India</td>
+            <td>18M</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>United States</td>
+            <td>6M</td>
+        </tr>
+        <tr>
+            <td>London</td>
+            <td>England</td>
+            <td>3M</td>
+        </tr>
+    </table>
+    <br>
+    <!-- a table that lists your favorite foods and their respective categories.-->
+     <table border="1" cellpadding="10" cellspacing="0">
+        <caption>list of favorite foods and their respective categories</caption>
+        <tr>
+            <th>favorite food</th>
+            <th>category</th>
+        </tr>
+        <tr>
+            <td>tikki chhat</td>
+            <td>spicy</td>
+        </tr>
+        <tr>
+            <td>tikrii</td>
+            <td>sweet</td>
+        </tr>
+        <tr>
+            <td>coffee</td>
+            <td>beverages</td>
+        </tr>
+        <tr>
+            <td>maggie</td>
+            <td>noodles</td>
+        </tr>
+     </table>
+     <br>
+     <!-- use colspan and rowspan to create a complex table layout for a weekly schedule. -->
+      <table border="1" cellpadding="10" cellspacing="0">
+        <caption>a complex table layout for a weekly schedule</caption>
+        <tr>
+            <th rowspan="3">day</th>
+            <th colspan="3">seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">schedule</th>
+            <th rowspan="2">topic</th>
+        </tr>
+        <tr>
+            <th>begin</th>
+            <th>end</th>
+        </tr>
+        <tr>
+            <td rowspan="2">monday</td>
+            <td rowspan="2">8:00 am</td>
+            <td rowspan="2">5:00 pm</td>
+            <td>introduction to xlm</td>
+        </tr>
+        <tr>
+            <td>validity: DTD and relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 am</td>
+            <td>11:00 am</td>
+            <td rowspan="2">XPath</td>
+        </tr>
+        <tr>
+            <td>11:00 am</td>
+            <td>2:00 pm</td>
+        </tr>
+        <tr>
+            <td>2:00 pm</td>
+            <td>5:00 pm</td>
+            <td>XSL Transformations</td> <!-- This is a new cell, no rowspan needed -->
+        </tr>
+        <tr>
+            <td>wednesday</td>
+            <td>8:00 am</td>
+            <td>12:00 pm</td>
+            <td>XSL Formatting objects</td>
+        </tr>
+      </table>
+</body>
+</html>
